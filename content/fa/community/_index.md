@@ -1,8 +1,7 @@
 ---
-title: انجمن
-menu:
-  main:
-    weight: 40
+title: انجمن (غیرفعال)
+draft: true
+hide_menu: true
 ---
 
-<!--add blocks of content here to add more sections to the community page -->
+<!-- disabled -->

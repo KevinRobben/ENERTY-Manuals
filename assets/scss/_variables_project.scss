@@ -4,3 +4,42 @@ Add styles or override variables from the theme here.
 
 */
 
+$primary: #2f7de1; /* Enerty blue */
+$link-color: $primary;
+$btn-primary-bg: $primary;
+$navbar-dark-color: #ffffff;
+$navbar-dark-hover-color: #e6f0fb;
+
+/* Ensure content clears the fixed navbar */
+.td-main main.td-content, .td-main { 
+  padding-top: 6rem; 
+}
+
+.manuals-topnav { 
+  position: sticky; 
+  top: 5rem; 
+  z-index: 10; 
+  background: #fff; 
+  padding: .5rem 0; 
+}
+
+/* Constrain manual content width for readability and future PDF export */
+@media (min-width: 992px) {
+  /* Constrain the main content element itself and center it */
+  main.td-main {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media print {
+  .td-main .td-content > .container > .row > main {
+    max-width: 800px;
+  }
+}
+
+/* Hide Docsy sidebars for a clean manual layout */
+.td-sidebar { display: none; }
+.td-toc { display: none; }
+

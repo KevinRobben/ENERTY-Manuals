@@ -1,8 +1,9 @@
 ---
-title: Blog
-menu: {main: {weight: 30}}
+title: Blog (disabled)
+draft: true
+hide_menu: true
 ---
 
-This is the **blog** section. It has two categories: News and Releases.
+This content is disabled for the Enerty Manuals site.
 
 Files in these directories will be listed in reverse chronological order.
