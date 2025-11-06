@@ -1,11 +1,12 @@
 ---
-title: "Module‑C"
+title: "Module‑M"
 weight: 5
 summary: "Overzicht en toegang tot alle hoofdstukken"
-featured_image: "/img/manuals/module-c/product.svg"
+featured_image: "/img/manuals/module-m/Module-M_iso_banner.png"
+url: "/module-m/"
 ---
 
-![Module‑C](/img/manuals/module-c/product.svg)
+<img src="/img/manuals/module-m/Module-M_iso_banner.png" alt="Module‑M" style="max-height:400px;">
 
 Kies een hoofdstuk:
 

@@ -2,6 +2,27 @@
 
 Enerty produceces electronic products for the energy sector. Each product has its own manual.
 
+## Structuur
+
+- Taal: Nederlands (default)
+- Producthandleidingen: `/content/nl/manuals/<product>/`
+  - `_index.md` (product landing met afbeelding)
+  - `safety-instructions.md`, `description.md`, `operation.md`, `installation.md`, `configuration.md`, `error-indications.md`, `technical-specifications.md`
+
+## Nieuw product toevoegen
+
+1. Maak een map aan:
+   - `content/nl/manuals/<product>/`
+2. Voeg een productafbeelding toe:
+   - `static/img/manuals/<product>/product.svg` (of `.jpg/.png`)
+3. Maak de landing en hoofdstukken:
+   - Gebruik de bestaande mappen als voorbeeld of deze archetypes:
+     - `archetypes/manual-product/index.md`
+     - `archetypes/manual-page.md`
+4. Pas de `featured_image` in `_index.md` aan naar jouw productafbeelding.
+5. Controleer de volgorde via `weight` (5, 10, 20, ... 70).
+
+
 
 ## Installation
 

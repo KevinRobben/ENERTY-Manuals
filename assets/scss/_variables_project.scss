@@ -43,3 +43,9 @@ $navbar-dark-hover-color: #e6f0fb;
 .td-sidebar { display: none; }
 .td-toc { display: none; }
 
+/* Keep all content images within container width on all viewports */
+.td-main img, .td-content img {
+  max-width: 100%;
+  height: auto;
+}
+
