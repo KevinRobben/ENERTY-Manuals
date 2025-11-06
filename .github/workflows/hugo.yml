@@ -50,6 +50,20 @@ jobs:
         run: |
           hugo mod tidy
           hugo mod get
+      - name: Setup Node.js (for PostCSS)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install Node.js dependencies (PostCSS)
+        run: |
+          if [ -f package-lock.json ] || [ -f npm-shrinkwrap.json ]; then
+            npm ci
+          else
+            npm install --no-audit --no-fund
+          fi
+      - name: Verify PostCSS
+        run: |
+          npx postcss -v
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
