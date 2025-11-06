@@ -50,27 +50,11 @@ jobs:
         run: |
           hugo mod tidy
           hugo mod get
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Install Node.js dependencies
-        run: |
-          if [ -f package-lock.json ] || [ -f npm-shrinkwrap.json ]; then
-            npm ci
-          else
-            npm install --no-audit --no-fund
-          fi
-      - name: Verify Tailwind CLI
-        run: |
-          npx --yes tailwindcss --version || true
-          if ! command -v tailwindcss >/dev/null 2>&1; then
-            npm i -g tailwindcss @tailwindcss/cli
-            tailwindcss --version
-          fi
+        with:
+          enablement: true
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
