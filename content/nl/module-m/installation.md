@@ -31,10 +31,7 @@ Ongeveer 30% van de Nederlandse huishoudens heeft een SMR 5.0‑meter en circa 4
 
 <img src="/img/module-m/Module-M&B_RJ45_insertion.png" alt="UTP naar Module‑M – RJ45‑aansluiting" style="max-height:300px;">
 
-4. Voorzie de Module‑M van voeding via een van de volgende opties:
-   - RJ12‑kabel naar een DSMR4.x‑meter om voeding te leveren.
-     {{< alert title="Let op" color="warning" >}}Dit werkt niet met DSMR2‑ of DSMR3‑meters.{{< /alert >}}
-   - Een USB‑C‑voeding (niet meegeleverd). Verbind een USB‑C‑kabel met de USB‑C‑ingang van de Module‑M. Deze bevindt zich naast de RJ12‑aansluiting voor de slimme meter.
+4. Voorzie de Module‑M van voeding via een USB‑C‑voeding (niet meegeleverd). Verbind de USB‑C‑kabel met de USB‑C‑ingang van de Module‑M. Deze bevindt zich naast de RJ12‑aansluiting voor de slimme meter.
 
 ## Module‑B
 1. Monteer de Module‑B in de nabijheid van de Victron Cerbo GX of de MultiPlus‑II GX.
