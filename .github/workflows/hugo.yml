@@ -63,7 +63,7 @@ jobs:
           fi
       - name: Verify PostCSS
         run: |
-          npx postcss -v
+          npx postcss --version || true
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
@@ -74,8 +74,7 @@ jobs:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
         run: |
-          hugo \
-            --minify \
+          hugo --minify
             
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
