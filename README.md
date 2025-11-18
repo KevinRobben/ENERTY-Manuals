@@ -5,7 +5,7 @@ Enerty produceces electronic products for the energy sector. Each product has it
 ## Structuur
 
 - Taal: Nederlands (default)
-- Producthandleidingen: `/content/nl/manuals/<product>/`
+- Producthandleidingen: `/content/nl/<product>/`
   - `_index.md` (product landing met afbeelding)
   - `safety-instructions.md`, `description.md`, `operation.md`, `installation.md`, `configuration.md`, `error-indications.md`, `technical-specifications.md`
 
