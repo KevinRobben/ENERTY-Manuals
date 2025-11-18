@@ -2,10 +2,10 @@
 title: "{{ replace .Name "-" " " | title }}"
 weight: 5
 summary: "Overzicht en toegang tot alle hoofdstukken"
-featured_image: "/img/manuals/{{ .Name }}/product.jpg"
+featured_image: "/img/{{ .Name }}/product.jpg"
 ---
 
-![{{ replace .Name "-" " " | title }}](/img/manuals/{{ .Name }}/product.jpg)
+![{{ replace .Name "-" " " | title }}](/img/{{ .Name }}/product.jpg)
 
 Kies een hoofdstuk:
 

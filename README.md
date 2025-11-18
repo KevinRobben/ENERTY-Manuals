@@ -12,9 +12,9 @@ Enerty produceces electronic products for the energy sector. Each product has it
 ## Nieuw product toevoegen
 
 1. Maak een map aan:
-   - `content/nl/manuals/<product>/`
+   - `content/nl/<product>/`
 2. Voeg een productafbeelding toe:
-   - `static/img/manuals/<product>/product.svg` (of `.jpg/.png`)
+   - `static/img/<product>/product.svg` (of `.jpg/.png`)
 3. Maak de landing en hoofdstukken:
    - Gebruik de bestaande mappen als voorbeeld of deze archetypes:
      - `archetypes/manual-product/index.md`

@@ -12,8 +12,8 @@ Op elke module zijn twee LED‑indicatoren aanwezig:
 - Rood: activiteit op een van de bekabelde verbindingen (zenden/ontvangen).
 - Groen: activiteit op de draadloze verbinding tussen Module‑M en Module‑B.
 
-<img src="/img/manuals/module-m/Module-M&B_red_light.png" alt="Rood LED – bedrade communicatie" style="max-height:300px;">
-<img src="/img/manuals/module-m/Module-M&B_green_light.png" alt="Groen LED – draadloze link" style="max-height:300px;">
+<img src="/img/module-m/Module-M&B_red_light.png" alt="Rood LED – bedrade communicatie" style="max-height:300px;">
+<img src="/img/module-m/Module-M&B_green_light.png" alt="Groen LED – draadloze link" style="max-height:300px;">
 
 ## Draadloze verbinding
 De draadloze verbinding is met obstakels betrouwbaar getest tot circa 150 m (bijvoorbeeld op een bedrijventerrein). In open veld, met directe zichtlijn tussen de twee modules, is een afstand tot circa 700 m mogelijk.
